@@ -47,3 +47,5 @@ subir aom atualizaçoes da branch seundaria para brach master, rodar esse comand
 
 pull request => pedido de aceite de uma alteração feita em um arquivo, feito por
 um superior que tenha autotização para tal.
+
+git ignore => oculto informações privadas para não subir para o github
