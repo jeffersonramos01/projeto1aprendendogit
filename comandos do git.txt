@@ -1,0 +1,46 @@
+Como Criar um Reporsitorio no Git
+criar uma pasta no C:
+abri o git bash nela
+criar os arquivos e rodar pelo git
+
+Comandos do Git
+
+git init => iniciar o git
+
+git Status => informações dos arquivos
+
+git add => adiciona somente um arquivo
+
+git add . => adiciona 1 ou mais aqruivos
+
+git push => subir arquivos para o github
+
+commit -m => quando aiciona algo novo em um código
+
+git remote add origin https://github.com/jeffersonramos01/projeto1aprendendogit 
+
+git reflog => vejo verões do meu repositorio
+
+git reset --hard + (numero= da versao)=> altera a versão que foi escolhida
+
+branch, local onde minha aplicação roda que me proporciona varias versões
+
+git branch => me mostra quantas branch eu tenho, a branch que esta selecionada
+(a que estoou trabalhando)fica na cor verde e com asterisco
+ 
+
+git staging , branch secundarias ou terciarias..
+
+git checkout (nome da branch que vou querer usar)=> altero de branch em meu 
+desenvolvimento, saio da branch principal(masster) para uma branch secundaria
+(staging).
+
+Merge
+com esse comando eu consigo fazer com que as alterações que fiz na branch 
+secundaria(staging), vá para a branch master(principal).
+
+git merge staging => estou mandando informações da branch secundaria para a 
+branch master
+
+git pull tras todas as informações do servidor atualizadas, sempre antes de 
+subir aom atualizaçoes da branch seundaria para brach master, rodar esse comando
